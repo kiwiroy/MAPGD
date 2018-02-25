@@ -11,8 +11,8 @@ AC_CHECK_PROG(HAVE_MAN, [man], [yes], [no])
 AC_CHECK_LIB([m],[cos])
 AC_CHECK_LIB([gslcblas],[cblas_dgemm])
 AC_CHECK_LIB([gsl],[gsl_blas_dgemm])
+AC_CONFIG_MACRO_DIR([m4])
 
-m4_include([./m4/ax_with_htslib.m4])
 
 AC_OPENMP
 AX_CXX_COMPILE_STDCXX_11
