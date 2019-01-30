@@ -1,7 +1,14 @@
+ABOUT-NLS
+Makefile
+aclocal.m4
+autom4te.cache/*
+config.rpath
 extras/sim/
 extras/daphnia/
 extras/pedigree/
+m4/*.m4
+!m4/ax_*.m4
+po/*
 src/test/fastq/
 src/test/output/
-Makefile
 src/mapgd_0.4/objs/

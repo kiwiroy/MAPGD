@@ -24,12 +24,12 @@ before_install:
     fi
 
   - if [[ "$TRAVIS_OS_NAME" == "linux" ]]; then
-        sudo apt-get -qq update; 
-        sudo apt-get install -y libgsl0-dev; 
-        sudo apt-get install -y gettext; 
-        sudo apt-get install -y libmpich-dev; 
-        sudo apt-get install -y libhts-dev; 
-        sudo apt-get install -y libhts0; 
+        sudo apt-get -qq update;
+        sudo apt-get install -y libgsl0-dev;
+        sudo apt-get install -y gettext;
+        sudo apt-get install -y libmpich-dev;
+        sudo apt-get install -y libhts-dev;
+        sudo apt-get install -y libhts0;
     fi
 install:
 #  - if [ "$CXX" = "g++" ]; then export CXX="g++-4.8" CC="gcc-4.8"; fi
